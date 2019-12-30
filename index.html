@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Objects & Object Constructors</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>Library Collection</header>
+    <button class="addBook">Add a New Book</button>
+    <div class="formDrop hiddenForm">
+        <div class="newform">
+            <label for="title">Title:</label><input type="text" name="title" id="title" placeholder='Treasure Island'>
+            <label for="author">Author</label><input type="text" name="author" id="author" placeholder='Robert Louis Stephenson'> 
+            <label for="pages">Pagecount:</label><input type="number" name="pages" id="pages" min=0 placeholder="69420">
+            <label for="read">Have Read?:</label><input type="checkbox" name="read" id="read" >
+            <button type="submit"class="submit">Add to Library</button>
+        </div>
+    </div>
+    <table class='booksTable'>
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Pages</th>
+            <th>Readstate</th>
+            <th>Remove</th>
+            <th>Change'read'</th>
+        </tr>
+    </table>
+
+    <script src="./script.js"></script>
+</body>
+</html>
